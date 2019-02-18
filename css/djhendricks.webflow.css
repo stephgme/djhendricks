@@ -1249,7 +1249,7 @@ strong {
   }
   .pkg-slider {
     position: relative;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 40px;
   }
   .right-arrow-2 {
@@ -1374,6 +1374,9 @@ strong {
   }
   .addons-wrapper {
     margin-bottom: 35px;
+  }
+  .slide-nav-3 {
+    display: block;
   }
 }
 
