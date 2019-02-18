@@ -1188,6 +1188,9 @@ strong {
   .hero-heading._2 {
     margin-top: 15px;
   }
+  .background-video {
+    margin-left: -220px;
+  }
   .testimonials {
     padding-top: 30px;
     padding-bottom: 30px;
