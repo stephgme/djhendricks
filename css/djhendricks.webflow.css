@@ -11,7 +11,7 @@ h1 {
   font-family: 'Din condensed', sans-serif;
   color: #fff;
   font-size: 72px;
-  line-height: 72px;
+  line-height: 76px;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -48,6 +48,16 @@ p {
 
 a {
   text-decoration: underline;
+}
+
+ul {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+li {
+  line-height: 22px;
 }
 
 strong {
@@ -228,7 +238,7 @@ strong {
   display: -ms-flexbox;
   display: flex;
   overflow: visible;
-  max-height: 500px;
+  max-height: 600px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -266,8 +276,8 @@ strong {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 100vh;
-  max-height: 650px;
+  padding-top: 70px;
+  padding-bottom: 60px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -314,8 +324,9 @@ strong {
   display: -ms-flexbox;
   display: flex;
   overflow: visible;
-  height: 100vh;
-  max-height: 700px;
+  min-height: 100vh;
+  padding-top: 70px;
+  padding-bottom: 50px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -336,6 +347,7 @@ strong {
 }
 
 .package-card {
+  position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -352,10 +364,10 @@ strong {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   border-radius: 10px;
   background-color: #fff;
 }
@@ -365,8 +377,8 @@ strong {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 60px;
+  margin-bottom: 60px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -387,20 +399,21 @@ strong {
 
 .paragraph.gray {
   color: #333;
+  text-align: left;
 }
 
 .package-title {
+  margin-bottom: 5px;
   text-align: center;
 }
 
 .div-block-2 {
   display: block;
   width: 150px;
-  height: 5px;
-  margin-right: auto;
-  margin-left: auto;
+  height: 4px;
+  margin: 10px auto 15px;
   border-radius: 30px;
-  background-color: #cacaca;
+  background-color: #e7e4e4;
 }
 
 .button {
@@ -428,6 +441,31 @@ strong {
   margin-top: 15px;
 }
 
+.button.package {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  -webkit-box-ordinal-group: 2;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+}
+
+.button.more {
+  margin-top: 20px;
+  background-color: #fff;
+  color: #63bff3;
+}
+
+.button.gold {
+  background-color: hsla(44.761904761904766, 99.21%, 49.80%, 1.00);
+}
+
 .testimonials-img {
   position: static;
   left: -25%;
@@ -452,7 +490,7 @@ strong {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  max-width: 800px;
+  max-width: 900px;
   margin-right: auto;
   margin-left: auto;
   -webkit-box-orient: vertical;
@@ -485,6 +523,11 @@ strong {
   margin-left: 90px;
 }
 
+.heading-4.testimonials-heading {
+  margin-left: -15px;
+  text-align: center;
+}
+
 .paragraph-2 {
   margin-right: 75px;
   margin-left: 75px;
@@ -495,7 +538,7 @@ strong {
 }
 
 .testimonials-text h4 {
-  margin-top: 15px;
+  margin-top: 45px;
   color: #fff;
   font-size: 28px;
   text-align: right;
@@ -503,8 +546,8 @@ strong {
 
 .testimonials-text p {
   font-family: 'Helvetica Light Italic', sans-serif;
-  font-size: 26px;
-  line-height: 36px;
+  font-size: 24px;
+  line-height: 32px;
   font-style: italic;
   font-weight: 300;
 }
@@ -641,7 +684,7 @@ strong {
 
 .top.center {
   z-index: 2;
-  margin-top: 66px;
+  margin-top: 95px;
   text-align: center;
 }
 
@@ -664,6 +707,7 @@ strong {
 
 .about-img._3 {
   top: auto;
+  min-height: 50vh;
   min-width: 100%;
 }
 
@@ -740,12 +784,37 @@ strong {
   background-color: #5ae3b1;
 }
 
+.about-pinstripe._5 {
+  max-width: 250px;
+}
+
+.about-pinstripe._6 {
+  background-color: #5ae3b1;
+}
+
+.about-pinstripe._7 {
+  max-width: 310px;
+  background-color: #dca0c9;
+}
+
+.about-pinstripe._8 {
+  max-width: 175px;
+  background-color: #5ae3b1;
+}
+
+.about-pinstripe._9 {
+  max-width: 160px;
+}
+
 .slide-cont {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   height: 100%;
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -786,6 +855,68 @@ strong {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
+}
+
+.package-text {
+  margin-top: 5px;
+}
+
+.package-text p {
+  color: #333;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.package-text li {
+  margin-bottom: 10px;
+  font-size: 17px;
+  line-height: 22px;
+  list-style-type: disc;
+}
+
+.package-text ul {
+  padding-right: 10px;
+  padding-left: 20px;
+}
+
+.package-subtitle {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  font-family: 'Helvetica Bold Italic', sans-serif;
+  color: #5ae3b1;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.package-subtitle.pink {
+  color: #dca0c9;
+}
+
+.package-subtitle.gold {
+  color: hsla(44.761904761904766, 99.21%, 49.80%, 1.00);
+}
+
+.addons {
+  max-width: 400px;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.addons-text p {
+  color: #333;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.addons-text ul {
+  padding-left: 35px;
 }
 
 @media (max-width: 991px) {
@@ -1031,7 +1162,7 @@ strong {
   .hero-heading {
     padding-right: 0px;
     padding-left: 0px;
-    font-size: 46px;
+    font-size: 58px;
     line-height: 60px;
   }
   .hero-heading._2 {
@@ -1042,13 +1173,32 @@ strong {
     padding-bottom: 30px;
   }
   .hero-headline-cont._2 {
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .packages {
+    padding-bottom: 20px;
   }
   .contact {
     height: auto;
     padding-top: 45px;
     padding-bottom: 45px;
+  }
+  .package-card {
+    padding-right: 18px;
+    padding-left: 18px;
+  }
+  .package-title {
+    font-size: 34px;
+  }
+  .div-block-2 {
+    margin-bottom: 10px;
+  }
+  .button.more {
+    margin-top: 35px;
+  }
+  .button.more.w--current {
+    margin-bottom: 10px;
   }
   .testimonials-img {
     width: 500px;
@@ -1060,7 +1210,10 @@ strong {
     padding-left: 35px;
   }
   .heading-4.testimonials-heading {
-    font-size: 48px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-size: 58px;
+    line-height: 60px;
   }
   .testimonials-text h4 {
     margin-top: 25px;
@@ -1076,6 +1229,8 @@ strong {
   }
   .pkg-slider {
     position: relative;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
   .right-arrow-2 {
     left: auto;
@@ -1103,6 +1258,10 @@ strong {
     padding-right: 20px;
     padding-left: 20px;
   }
+  .heading-5 {
+    font-size: 58px;
+    line-height: 60px;
+  }
   .success-message {
     background-color: transparent;
   }
@@ -1118,6 +1277,10 @@ strong {
     color: #fff;
     line-height: 25px;
     text-align: center;
+  }
+  .top.center {
+    font-size: 58px;
+    line-height: 60px;
   }
   .about-img {
     position: absolute;
@@ -1150,9 +1313,44 @@ strong {
     max-height: 100%;
     max-width: none;
   }
+  .about-img._5 {
+    left: -56%;
+  }
+  .about-img._6 {
+    left: -128%;
+  }
+  .about-img._7 {
+    left: -64%;
+  }
+  .about-img._9 {
+    left: -74%;
+  }
   .about-slider-text {
     font-size: 30px;
     line-height: 35px;
+  }
+  .slide-cont {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .heading-6 {
+    padding-right: 25px;
+    padding-left: 25px;
+    font-size: 58px;
+    line-height: 60px;
+  }
+  .hero-headline-wrapper {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .package-text li {
+    font-size: 18px;
+  }
+  .addons-text p {
+    font-size: 18px;
+  }
+  .addons-text li {
+    font-size: 18px;
   }
 }
 
