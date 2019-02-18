@@ -47,7 +47,8 @@ p {
 }
 
 a {
-  text-decoration: underline;
+  color: hsla(201.66666666666669, 43.59%, 43.18%, 1.00);
+  text-decoration: none;
 }
 
 ul {
@@ -917,6 +918,25 @@ strong {
 
 .addons-text ul {
   padding-left: 35px;
+}
+
+.footer {
+  background-color: #2d2f4e;
+}
+
+.text-block-2 {
+  text-align: center;
+}
+
+.footer-text {
+  max-width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 60px 20px;
+  color: #8f8f8f;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
 }
 
 @media (max-width: 991px) {
