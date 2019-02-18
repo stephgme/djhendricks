@@ -748,6 +748,8 @@ strong {
   max-width: 90%;
   margin-right: auto;
   margin-left: auto;
+  padding-right: 10px;
+  padding-left: 10px;
   -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
   align-self: flex-start;
