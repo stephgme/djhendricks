@@ -1197,7 +1197,7 @@ strong {
     margin-left: 20px;
   }
   .packages {
-    padding-bottom: 20px;
+    padding-bottom: 50px;
   }
   .contact {
     height: auto;
@@ -1215,7 +1215,7 @@ strong {
     margin-bottom: 10px;
   }
   .button.more {
-    margin-top: 35px;
+    margin-top: 0px;
   }
   .button.more.w--current {
     margin-bottom: 10px;
@@ -1371,6 +1371,9 @@ strong {
   }
   .addons-text li {
     font-size: 18px;
+  }
+  .addons-wrapper {
+    margin-bottom: 35px;
   }
 }
 
