@@ -1,3 +1,7 @@
+.w-form-formrecaptcha {
+  margin-bottom: 8px;
+}
+
 body {
   font-family: 'Helvetica Light', sans-serif;
   color: #333;
@@ -47,7 +51,7 @@ p {
 }
 
 a {
-  color: hsla(201.66666666666669, 43.59%, 43.18%, 1.00);
+  color: #3e7b9e;
   text-decoration: none;
 }
 
@@ -116,7 +120,7 @@ strong {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
-  background-color: rgba(45, 47, 78, .61);
+  background-color: rgba(45, 47, 78, 0.61);
 }
 
 .header-pinstripe {
@@ -414,7 +418,7 @@ strong {
   height: 4px;
   margin: 10px auto 15px;
   border-radius: 30px;
-  background-color: #e7e4e4;
+  background-color: #e7e5e5;
 }
 
 .button {
@@ -464,7 +468,7 @@ strong {
 }
 
 .button.gold {
-  background-color: hsla(44.761904761904766, 99.21%, 49.80%, 1.00);
+  background-color: #fdbd01;
 }
 
 .testimonials-img {
@@ -560,7 +564,7 @@ strong {
 
 .slider {
   min-height: 225px;
-  background-color: hsla(0, 0%, 87%, 0);
+  background-color: hsla(0, 0%, 86.7%, 0);
 }
 
 .mask {
@@ -901,7 +905,7 @@ strong {
 }
 
 .package-subtitle.gold {
-  color: hsla(44.761904761904766, 99.21%, 49.80%, 1.00);
+  color: #fdbd01;
 }
 
 .addons {
